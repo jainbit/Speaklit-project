@@ -1,0 +1,15 @@
+flask
+
+# Optional real pipeline dependencies. The default demo pipeline runs without
+# these packages and falls back to SQLite plus placeholder transcript/audio/video
+# artifacts so local development can start quickly.
+# mysql-connector-python
+# openai-whisper
+# transformers
+# sentencepiece
+# torch
+# torchaudio
+# moviepy
+# ffmpeg-python
+# gTTS
+# pydub

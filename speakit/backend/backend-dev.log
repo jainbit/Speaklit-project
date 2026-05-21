@@ -1,0 +1,144 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.101.1.233:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+127.0.0.1 - - [20/May/2026 01:03:52] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:16] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:16] "OPTIONS /api/auth/login HTTP/1.1" 204 -
+127.0.0.1 - - [20/May/2026 01:06:16] "POST /api/auth/login HTTP/1.1" 401 -
+127.0.0.1 - - [20/May/2026 01:06:17] "OPTIONS /api/auth/register HTTP/1.1" 204 -
+127.0.0.1 - - [20/May/2026 01:06:17] "POST /api/auth/register HTTP/1.1" 201 -
+127.0.0.1 - - [20/May/2026 01:06:17] "OPTIONS /api/videos HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:17] "OPTIONS /api/analytics/1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:17] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:17] "GET /api/videos HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:18] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:18] "GET /api/analytics/1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:06:33] "OPTIONS /api/videos/upload HTTP/1.1" 401 -
+127.0.0.1 - - [20/May/2026 01:06:53] "OPTIONS /api/videos/upload HTTP/1.1" 401 -
+127.0.0.1 - - [20/May/2026 01:09:55] "GET /health HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\routes\\helpers.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\models\\video.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\pipeline\\transcriber.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\pip\\__pip-runner__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks\\_in_process\\_in_process.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\getopt.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\email\\generator.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\more_itertools\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\llvmlite\\binding\\module.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\tiktoken\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\numba\\cuda\\tests\\cudapy\\test_multiprocessing.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\whisper\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\pipeline\\common.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\transformers\\models\\blenderbot\\modeling_flax_blenderbot.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\transformers\\models\\gpt_oss\\modeling_gpt_oss.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\transformers\\models\\rembert\\modeling_rembert.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\pydub\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\imageio_ffmpeg\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\imageio\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\future\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\decorator\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Python313\\Lib\\site-packages\\ffmpeg\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\pipeline\\common.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\pipeline\\transcriber.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\pipeline\\translator.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+ * Detected change in 'C:\\Users\\Asus\\Downloads\\Speaklit project\\speakit\\backend\\pipeline\\synthesizer.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 136-676-882
+127.0.0.1 - - [20/May/2026 01:40:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:40:51] "OPTIONS /api/videos HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:40:51] "OPTIONS /api/analytics/1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:40:51] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:40:52] "GET /api/videos HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:40:52] "GET /api/analytics/1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2026 01:40:52] "GET /api/auth/profile HTTP/1.1" 200 -

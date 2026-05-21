@@ -1,0 +1,104 @@
+
+> speakit-frontend@1.0.0 start
+> set "NODE_OPTIONS=--openssl-legacy-provider" && react-scripts start
+
+[34mi[39m [90m｢wds｣[39m: Project is running at http://10.101.1.233/
+[34mi[39m [90m｢wds｣[39m: webpack output is served from 
+[34mi[39m [90m｢wds｣[39m: Content not from webpack is served from C:\Users\Asus\Downloads\Speaklit project\speakit\frontend\public
+[34mi[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view speakit-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://10.101.1.233:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Compiling...
+Files successfully emitted, waiting for typecheck results...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src\App.tsx
+Syntax error: Unexpected token, expected "," (135:35)
+
+[0m [90m 133 |[39m   [36mconst[39m [currentUser[33m,[39m setCurrentUser] [33m=[39m useState[33m<[39m[33mAuthUser[39m [33m|[39m [36mnull[39m[33m>[39m(() [33m=>[39m {
+ [90m 134 |[39m     [36mconst[39m raw [33m=[39m localStorage[33m.[39mgetItem([32m'speakit_user'[39m)[33m;[39m
+[31m[1m>[22m[39m[90m 135 |[39m     [36mreturn[39m raw [33m?[39m ([33mJSON[39m[33m.[39mparse(raw) [36mas[39m [33mAuthUser[39m) [33m:[39m [36mnull[39m[33m;[39m
+ [90m     |[39m                                   [31m[1m^[22m[39m
+ [90m 136 |[39m   })[33m;[39m
+ [90m 137 |[39m   [36mconst[39m [authMessage[33m,[39m setAuthMessage] [33m=[39m useState[33m<[39m[33mstring[39m[33m>[39m([32m'Creating a demo session...'[39m)[33m;[39m
+ [90m 138 |[39m[0m
+Compiling...
+Failed to compile.
+
+src\App.tsx
+Syntax error: Unexpected token, expected "," (135:35)
+
+[0m [90m 133 |[39m   [36mconst[39m [currentUser[33m,[39m setCurrentUser] [33m=[39m useState[33m<[39m[33mAuthUser[39m [33m|[39m [36mnull[39m[33m>[39m(() [33m=>[39m {
+ [90m 134 |[39m     [36mconst[39m raw [33m=[39m localStorage[33m.[39mgetItem([32m'speakit_user'[39m)[33m;[39m
+[31m[1m>[22m[39m[90m 135 |[39m     [36mreturn[39m raw [33m?[39m ([33mJSON[39m[33m.[39mparse(raw) [36mas[39m [33mAuthUser[39m) [33m:[39m [36mnull[39m[33m;[39m
+ [90m     |[39m                                   [31m[1m^[22m[39m
+ [90m 136 |[39m   })[33m;[39m
+ [90m 137 |[39m   [36mconst[39m [authMessage[33m,[39m setAuthMessage] [33m=[39m useState[33m<[39m[33mstring[39m[33m>[39m([32m'Creating a demo session...'[39m)[33m;[39m
+ [90m 138 |[39m[0m
+Compiling...
+Failed to compile.
+
+src\App.tsx
+Syntax error: Unexpected token, expected "," (135:35)
+
+[0m [90m 133 |[39m   [36mconst[39m [currentUser[33m,[39m setCurrentUser] [33m=[39m useState[33m<[39m[33mAuthUser[39m [33m|[39m [36mnull[39m[33m>[39m(() [33m=>[39m {
+ [90m 134 |[39m     [36mconst[39m raw [33m=[39m localStorage[33m.[39mgetItem([32m'speakit_user'[39m)[33m;[39m
+[31m[1m>[22m[39m[90m 135 |[39m     [36mreturn[39m raw [33m?[39m ([33mJSON[39m[33m.[39mparse(raw) [36mas[39m [33mAuthUser[39m) [33m:[39m [36mnull[39m[33m;[39m
+ [90m     |[39m                                   [31m[1m^[22m[39m
+ [90m 136 |[39m   })[33m;[39m
+ [90m 137 |[39m   [36mconst[39m [authMessage[33m,[39m setAuthMessage] [33m=[39m useState[33m<[39m[33mstring[39m[33m>[39m([32m'Creating a demo session...'[39m)[33m;[39m
+ [90m 138 |[39m[0m
+Compiling...
+Failed to compile.
+
+src\App.tsx
+Syntax error: Unexpected token, expected "," (135:35)
+
+[0m [90m 133 |[39m   [36mconst[39m [currentUser[33m,[39m setCurrentUser] [33m=[39m useState[33m<[39m[33mAuthUser[39m [33m|[39m [36mnull[39m[33m>[39m(() [33m=>[39m {
+ [90m 134 |[39m     [36mconst[39m raw [33m=[39m localStorage[33m.[39mgetItem([32m'speakit_user'[39m)[33m;[39m
+[31m[1m>[22m[39m[90m 135 |[39m     [36mreturn[39m raw [33m?[39m ([33mJSON[39m[33m.[39mparse(raw) [36mas[39m [33mAuthUser[39m) [33m:[39m [36mnull[39m[33m;[39m
+ [90m     |[39m                                   [31m[1m^[22m[39m
+ [90m 136 |[39m   })[33m;[39m
+ [90m 137 |[39m   [36mconst[39m [authMessage[33m,[39m setAuthMessage] [33m=[39m useState[33m<[39m[33mstring[39m[33m>[39m([32m'Creating a demo session...'[39m)[33m;[39m
+ [90m 138 |[39m[0m
+Compiling...
+Failed to compile.
+
+src\App.tsx
+Syntax error: Unexpected token, expected "," (135:35)
+
+[0m [90m 133 |[39m   [36mconst[39m [currentUser[33m,[39m setCurrentUser] [33m=[39m useState[33m<[39m[33mAuthUser[39m [33m|[39m [36mnull[39m[33m>[39m(() [33m=>[39m {
+ [90m 134 |[39m     [36mconst[39m raw [33m=[39m localStorage[33m.[39mgetItem([32m'speakit_user'[39m)[33m;[39m
+[31m[1m>[22m[39m[90m 135 |[39m     [36mreturn[39m raw [33m?[39m ([33mJSON[39m[33m.[39mparse(raw) [36mas[39m [33mAuthUser[39m) [33m:[39m [36mnull[39m[33m;[39m
+ [90m     |[39m                                   [31m[1m^[22m[39m
+ [90m 136 |[39m   })[33m;[39m
+ [90m 137 |[39m   [36mconst[39m [authMessage[33m,[39m setAuthMessage] [33m=[39m useState[33m<[39m[33mstring[39m[33m>[39m([32m'Creating a demo session...'[39m)[33m;[39m
+ [90m 138 |[39m[0m
+Compiling...
+Failed to compile.
+
+src\App.tsx
+Syntax error: Missing semicolon. (826:14)
+
+[0m [90m 824 |[39m   }
+ [90m 825 |[39m
+[31m[1m>[22m[39m[90m 826 |[39m   [36mreturn[39m data [36mas[39m [33mT[39m[33m;[39m
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 827 |[39m }
+ [90m 828 |[39m
+ [90m 829 |[39m [36mfunction[39m getErrorMessage(error[33m:[39m unknown)[33m:[39m string {[0m
+Compiling...
+Files successfully emitted, waiting for typecheck results...
+Compiled successfully!

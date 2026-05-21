@@ -1,0 +1,12 @@
+{
+  "name": "speakit-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "start:backend": "node scripts/start-backend.js",
+    "start:frontend": "npm --prefix speakit/frontend start",
+    "test:backend": "node scripts/test-backend.js",
+    "build:frontend": "npm --prefix speakit/frontend run build"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "speakit-backend",
+  "version": "1.0.0",
+  "description": "Backend for SpeakIt, a video transcription, translation, and dubbing application.",
+  "main": "app.py",
+  "scripts": {
+    "start": "python3 app.py",
+    "build": "echo \"Python backend does not require a build step.\"",
+    "test": "python3 -m unittest discover tests"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "transcription",
+    "translation",
+    "dubbing",
+    "video",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
